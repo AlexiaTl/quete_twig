@@ -1,0 +1,12 @@
+{
+    "name": "alexiatali/quete_twig",
+    "authors": [
+        {
+            "name": "Alexia Tali",
+            "email": "alexia.tali@hotmail.fr"
+        }
+    ],
+    "require": {
+        "twig/twig": "^2.9"
+    }
+}

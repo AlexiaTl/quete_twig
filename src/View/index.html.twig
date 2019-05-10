@@ -1,0 +1,24 @@
+{% extends "base.html.twig" %}
+
+{% block card %}
+    <div class="row">
+        {% for vetement in vetements %}
+            <!-- Card -->
+            <div class="card col-4">
+                <div class="card text-white bg-secondary my-3">
+                <img src="https://media.fashionnetwork.com/m/f08c/3986/5d92/284e/faa3/8376/89db/c5a2/f533/8bbf/8bbf.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ vetement }}</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-dark">Consulter les {{ vetement }}</a>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}
+
+
+
+
+
